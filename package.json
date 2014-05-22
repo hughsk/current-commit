@@ -1,0 +1,33 @@
+{
+  "name": "current-commit",
+  "version": "0.0.0",
+  "description": "Retrieve the currently checked out commit in a git repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^2.13.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/current-commit.git"
+  },
+  "keywords": [
+    "git",
+    "light",
+    "lightweight",
+    "head",
+    "check",
+    "hash",
+    "rev-parse"
+  ],
+  "bugs": {
+    "url": "https://github.com/hughsk/current-commit/issues"
+  },
+  "homepage": "https://github.com/hughsk/current-commit"
+}
